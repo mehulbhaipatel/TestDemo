@@ -12,9 +12,11 @@ Application structure -
 Application files and folders -
 
 1> Controller --> HomeController - Controller which performs the addition of the number
+
 2> View --> Home --> Index - UI for the addition
+
 3> Models --> Contains all ViewModels of application
-       -- ResultViewModel - base ViewModel of all ViewModels that returns from the controller to view, contains properties like IsSuccess and ErrorMsgs for view to identify if request succeded or failed
+       -- ResultViewModel - base ViewModel of all ViewModels that returns from the controller to view, contains properties like IsSuccess           and ErrorMsgs for view to identify if request succeded or failed
        -- AddViewModel -ViewModel for adding two numbers
        -- SumResultViewModel - ViewModel for returning result of Sum
        
